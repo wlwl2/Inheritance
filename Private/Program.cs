@@ -1,3 +1,8 @@
+// https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance
+
+// Private members are visible only in derived classes that are nested in their
+// base class.
+
 using System;
 
 namespace Inheritance
@@ -17,6 +22,9 @@ namespace Inheritance
        }
     }
 
+    // if you add the C.GetValue method and attempt to
+    // compile the example, it produces compiler error CS0122: "'A.value' is
+    // inaccessible due to its protection level."
     public class C : A
     {
        public int GetValue()

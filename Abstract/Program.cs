@@ -1,15 +1,21 @@
 ﻿using System;
 
+// In some cases, a derived class must override the base class implementation.
+// Base class members marked with the abstract keyword require that derived
+// classes override them. Attempting to compile the following example generates
+// compiler error CS0534, " does not implement inherited abstract member ',
+// because class B provides no implementation for A.Method1.
+
 namespace Abstract
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("`override` successful!");
         }
     }
-    
+
     public abstract class A
     {
         public abstract void Method1();
@@ -21,5 +27,8 @@ namespace Abstract
         {
             // Do something.
         }
+
+        // public override void Method1()
+        // {}
     }
 }
