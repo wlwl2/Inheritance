@@ -7,6 +7,8 @@ Real-life use cases:
 represent specific types of publications. Source: https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance
 - Lists- e.g. when you want to have a list of skills in a game.
 
+It seems like even if a few derived classes have a particular property, it is better to add it to the base class.
+
 ## Abstract
 
 ## Override
