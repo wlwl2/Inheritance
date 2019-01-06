@@ -1,12 +1,13 @@
 # Inheritance
 
+Ordinarily, inheritance is used to express an "is a" relationship between a base class and one or more derived classes.
+
+Real-life use cases:
+- For example, the Publication class represents a publication of any kind, and the Book and Magazine classes 
+represent specific types of publications. Source: https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance
+- Lists- e.g. when you want to have a list of skills in a game.
+
 ## Abstract
-
-
-
-## Inheritance
-
-Derived classes
 
 ## Override
 
@@ -26,8 +27,6 @@ Private members are visible only in derived classes that are nested in their
 base class.
 
 ## Public
-
-Shows a basic example of inheritance.
 
 Public members are visible in derived classes and are part of the derived class'
 public interface. Public inherited members can be called just as if they were
